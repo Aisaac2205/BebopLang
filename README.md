@@ -47,12 +47,12 @@ beboplang/
 -cd ../src
 -python main.py
 
-##📈 Salidas Generadas
+## 📈 Salidas Generadas
 -arbol_derivacion.png: Imagen generada del árbol de derivación.
 -Tabla de símbolos: Mostrada por consola.
 -Tabla de errores: Léxicos o sintácticos, también en consola.
 
-##📚 Manual de Usuario
+## 📚 Manual de Usuario
 Escribe el código en tests/test.txt.
 Ejecuta main.py desde la carpeta src.
 Consulta la consola para ver:
@@ -67,12 +67,12 @@ Análisis sintáctico: Reglas definidas en BebopLangParser.g4 mediante BNF.
 Tabla de símbolos: Almacena identificadores, tipos, valores y líneas.
 Tabla de errores: Muestra errores léxicos y sintácticos con contexto.
 
-Ejemplo del código:
+## Ejemplo del código:
 SPIKE x = 42;
 FEY mensaje = "Hello, space cowboy!";
 JET suma = x + 10;
 
-✨ Créditos
+## ✨ Créditos
 Desarrollado por Isaac Flores como parte del curso de Compiladores. Inspirado por la legendaria serie Cowboy Bebop.
 
-🛸 See you, Space Cowboy...
+## 🛸 See you, Space Cowboy...
