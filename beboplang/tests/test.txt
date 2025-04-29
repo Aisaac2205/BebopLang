@@ -1,0 +1,9 @@
+iniciar misión;
+asignar objetivo = "Vicious";
+rastrear objetivo;
+if (recompensa > 1000000) {
+    capturar objetivo;
+} else {
+    abandonar misión;
+}
+terminar misión;
