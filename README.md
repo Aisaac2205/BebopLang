@@ -52,7 +52,7 @@ beboplang/
 -Tabla de símbolos: Mostrada por consola.
 -Tabla de errores: Léxicos o sintácticos, también en consola.
 
-## 📚 Manual de Usuario
+# 📚 Manual de Usuario
 Escribe el código en tests/test.txt.
 Ejecuta main.py desde la carpeta src.
 Consulta la consola para ver:
@@ -60,19 +60,19 @@ Tabla de símbolos
 Tabla de errores
 Abre arbol_derivacion.png para ver el árbol sintáctico generado.
 
-## 🧠 Lógica del Compilador
+# 🧠 Lógica del Compilador
 Análisis léxico: Basado en expresiones regulares dentro de BebopLangLexer.g4.
 Análisis sintáctico: Reglas definidas en BebopLangParser.g4 mediante BNF.
 Árbol de derivación: Recorre el árbol con un Listener y lo genera con graphviz.
 Tabla de símbolos: Almacena identificadores, tipos, valores y líneas.
 Tabla de errores: Muestra errores léxicos y sintácticos con contexto.
 
-## Ejemplo del código:
+# Ejemplo del código:
 SPIKE x = 42;
 FEY mensaje = "Hello, space cowboy!";
 JET suma = x + 10;
 
-## ✨ Créditos
-Desarrollado por Isaac Flores como parte del curso de Compiladores. Inspirado por la legendaria serie Cowboy Bebop.
+# ✨ Créditos
+## Desarrollado por Isaac Flores como parte del curso de Compiladores. Inspirado por la legendaria serie Cowboy Bebop.
 
-## 🛸 See you, Space Cowboy...
+# 🛸 See you, Space Cowboy...
